@@ -24,6 +24,15 @@ Developers are always welcome to fork ChangelogPIP and provide features or bug f
 
 Follow the above conventions if you want your pull requests accepted.
 
+Steps to implement this package
+-------------------------------
+
+In Order to implement this package into your plugin or application, you have to follow these steps:
+
+* make this package to your requirement
+* if you want so, distribute your plugin/application with this package to minimize installation duration for your customers
+* IMPORTANT: Add the listed language files to your plugin/application and install them there. You just have to copy them into your plugin's/application's folder.
+
 License
 -------
 
