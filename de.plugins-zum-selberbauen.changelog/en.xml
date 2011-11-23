@@ -4,6 +4,6 @@
         <item name="wcf.acp.package.step.install.ChangelogPackageInstallationPlugin"><![CDATA[Shows changelog file]]></item>
         <item name="wcf.acp.package.step.update.ChangelogPackageInstallationPlugin"><![CDATA[Shows changelog file]]></item>
         <item name="wcf.acp.package.changelog"><![CDATA[Changelog]]></item>
-        <item name="wcf.acp.package.changelog.description"><![CDATA[Shows the changelog of the installed package.]]></item>
+        <item name="wcf.acp.package.changelog.description"><![CDATA[Shows the changelog of the installed package:]]></item>
     </category>
 </language>
