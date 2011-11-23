@@ -21,7 +21,7 @@
     
     
     <div class="nextButton">
-        <input type="submit" value="{lang}wcf.global.button.next{/lang}" onclick="parent.stopAnimating();" />
+        <input type="submit" value="{lang}wcf.global.button.next{/lang}" />
     </div>
 </form>
 
