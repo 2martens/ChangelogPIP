@@ -1,6 +1,6 @@
 {include file='setupWindowHeader'}
 
-<form method="post" action="index.php?page=Package&amp;step={@$nextStep}&amp;queueID={@$queueID}&amp;action={@$action}&amp;packageID={@PACKAGE_ID}{@SID_ARG_2ND}">
+<form method="post" action="index.php?page=Package">
     <fieldset>
         <legend>{lang}wcf.acp.package.changelog{/lang}</legend>
         <div class="inner">
@@ -27,7 +27,10 @@
 
 <script type="text/javascript">
     //<![CDATA[
-    {if $progress|isset}parent.setProgress({@$progress});{/if}
+    window.onload = function() {
+	changeHeight();
+};
+
     parent.showWindow(true);
     parent.setCurrentStep('{lang}wcf.acp.package.step.title{/lang}{lang}wcf.acp.package.step.{if $action == 'rollback'}uninstall{else}{@$action}{/if}.{@$step}{/lang}');
     //]]>
