@@ -13,7 +13,7 @@
             <input type="hidden" name="queueID" value="{@$queueID}" />
             <input type="hidden" name="action" value="{@$action}" />
             {@SID_INPUT_TAG}
-            <input type="hidden" name="step" value=" " />
+            <input type="hidden" name="step" value="finish" />
             <input type="hidden" name="packageID" value="{@PACKAGE_ID}" />
             <input type="hidden" name="send" value="send" />
         </div>
