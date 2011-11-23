@@ -14,14 +14,14 @@
             <input type="hidden" name="action" value="{@$action}" />
             {@SID_INPUT_TAG}
             <input type="hidden" name="step" value="{@$step}" />
+            <input type="hidden" name="nextStep" value="{@$nextStep}" />
             <input type="hidden" name="packageID" value="{@PACKAGE_ID}" />
             <input type="hidden" name="send" value="send" />
         </div>
     </fieldset>
     
-    
     <div class="nextButton">
-        <input type="submit" value="{lang}wcf.global.button.next{/lang}" />
+        <input type="submit" value="{lang}wcf.global.button.next{/lang}" onclick="parent.stopAnimating();" />
     </div>
 </form>
 

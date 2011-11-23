@@ -46,7 +46,6 @@ class ChangelogPackageInstallationPlugin extends AbstractPackageInstallationPlug
         $content = StringUtil::trim(file_get_contents($filename));
         WCF::getTPL()->assign('content', $content);
         WCF::getTPL()->display('packageInstallationChangelog');
-        exit;
     }
     
     /**
