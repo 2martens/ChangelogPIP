@@ -6,8 +6,8 @@
         <div class="inner">
             <p>{lang}wcf.acp.package.changelog.description{/lang}</p>
             
-            <div>
-               <p>{@$content}</p>
+            <div class="inner">
+               <textarea class="inputText" readable="readable">{@$content}</textarea>
             </div>
             
             <input type="hidden" name="queueID" value="{@$queueID}" />
