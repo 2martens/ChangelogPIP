@@ -7,7 +7,7 @@ version.
 Version notes
 -------------
 
-The currently available source code represents an beta-version of ChangelogPIP.
+The currently available source code represents the final version of ChangelogPIP.
 
 Contribution
 ------------
@@ -31,7 +31,7 @@ In Order to implement this package into your plugin or application, you have to 
 
 * make this package to your requirement
 * if you want so, distribute your plugin/application with this package to minimize installation duration for your customers
-* IMPORTANT: Add the listed language files to your plugin/application and install them there. You just have to copy them into your plugin's/application's folder.
+* IMPORTANT: Add the listed language files to your plugin/application and install them there.
 
 License
 -------

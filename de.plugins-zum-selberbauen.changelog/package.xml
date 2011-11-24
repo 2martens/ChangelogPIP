@@ -11,8 +11,8 @@
         
         <standalone>0</standalone>
         <isunique>1</isunique>
-        <version>1.0.0 Beta 11</version>
-        <date>2011-11-23</date>
+        <version>1.0.0</version>
+        <date>2011-11-24</date>
     </packageinformation>
     <authorinformation>
         <author><![CDATA[Jim Martens]]></author>
@@ -26,7 +26,5 @@
         <acptemplates>acptemplates.tar</acptemplates>
     </instructions>
     <instructions type="update" fromversion="1.0.0 Beta *">
-        <acptemplates>acptemplates.tar</acptemplates>
-        <packageinstallationplugins>pips.tar</packageinstallationplugins>
     </instructions>
 </package>
