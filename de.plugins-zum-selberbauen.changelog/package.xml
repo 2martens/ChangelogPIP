@@ -11,7 +11,7 @@
         
         <standalone>0</standalone>
         <isunique>1</isunique>
-        <version>1.0.0 Beta 10</version>
+        <version>1.0.0 Beta 11</version>
         <date>2011-11-23</date>
     </packageinformation>
     <authorinformation>
@@ -27,5 +27,6 @@
     </instructions>
     <instructions type="update" fromversion="1.0.0 Beta *">
         <acptemplates>acptemplates.tar</acptemplates>
+        <packageinstallationplugins>pips.tar</packageinstallationplugins>
     </instructions>
 </package>
